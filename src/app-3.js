@@ -55,6 +55,7 @@ const App = () => {
     
 }
 
+// with forwardRef ref is propagated forward to the App
 const InputComponent = React.forwardRef( (props,ref) => {
     return <input type="text" ref={ref}/>
 })
